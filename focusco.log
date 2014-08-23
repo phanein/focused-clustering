@@ -1,0 +1,51 @@
+[Warning: Name is nonexistent or not a directory: io] 
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+
+  Student License -- for use in conjunction with courses offered at a
+  degree-granting institution.  Professional and commercial use prohibited.
+
+FocusCO Distance Metric Learning
+-------------------------------------
+Gamma: 1.000000
+# Dissimilar pairs: 4
+Distance Metric Learning Data Type: sparse
+# Features to consider (if dml_datatype == sparse): 2
+Type of graph reweighting (sparse or dense similarity): sparse
+Graph Output File: focusco.out.weighted.edges
+
+[Warning: Name is nonexistent or not a directory: PGDM] 
+[> In path at 110
+  In addpath at 87
+  In distance_metric_learning_manual at 10
+  In focusco_main at 49] 
+Iteration: 1
+Objective: 2.825059
+Iteration: 2
+Objective: 2.871824
+Distance metric:
+
+DM =
+
+   (2,2)       1.2620
+
+
+ans =
+
+   (2,1)       1.0000
+   (3,1)       0.4709
+   (1,2)       1.0000
+   (3,2)       0.4709
+   (1,3)       0.4709
+   (2,3)       0.4709
+   (4,3)       0.4709
+   (3,4)       0.4709
+   (5,4)       0.4709
+   (6,4)       0.4709
+   (4,5)       0.4709
+   (6,5)       0.4709
+   (4,6)       0.4709
+   (5,6)       0.4709
+
