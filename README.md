@@ -13,7 +13,7 @@ There are two programs.  The first is a matlab script which learns a distance me
 
 ## Running
 
-An example batch file <code>focusco.bat</code> shows how to use the matlab program from the command line.  (it'll run the whole thing soon)
+An example batch file `focusco.bat` shows how to use the matlab program from the command line.  (it'll run the whole thing soon)
 
 ## Installation
 
@@ -24,9 +24,6 @@ An example batch file <code>focusco.bat</code> shows how to use the matlab progr
 ### Setup
 The only required step should be to build the java, e.g. with maven:
 
-<code>
-$ cd java_src
-
-$ mvn clean install
-</code>
+1. `$ cd java_src`
+1. `$ mvn clean install`
 
