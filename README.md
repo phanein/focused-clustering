@@ -13,7 +13,11 @@ There are two programs.  The first is a matlab script which learns a distance me
 
 ## Running
 
-An example batch file `focusco.bat` shows how to use the matlab program from the command line.  (it'll run the whole thing soon)
+An example batch file `focusco.bat` shows how to use the matlab program from the command line.  (it'll run the whole thing soon).  It can be run like so:
+
+`>focusco.bat example.edges example.features example.similar`
+
+Which will produce `focusco.out.weighted.edges`.
 
 ## Installation
 
